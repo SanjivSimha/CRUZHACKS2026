@@ -60,7 +60,7 @@ export function Navbar() {
                 asChild
                 className="border-primary text-primary hover:bg-primary hover:text-primary-foreground bg-transparent"
               >
-                <a href="/api/auth/logout">Log out</a>
+                <a href="/auth/logout">Log out</a>
               </Button>
             </>
           ) : (
@@ -70,13 +70,13 @@ export function Navbar() {
                 asChild
                 className="border-primary text-primary hover:bg-primary hover:text-primary-foreground bg-transparent"
               >
-                <a href="/api/auth/login">Login</a>
+                <a href="/auth/login">Login</a>
               </Button>
               <Button
                 asChild
                 className="bg-primary text-primary-foreground hover:bg-blue-light"
               >
-                <a href="/api/auth/login?screen_hint=signup">Sign Up</a>
+                <a href="/auth/login?screen_hint=signup">Sign Up</a>
               </Button>
             </>
           )}

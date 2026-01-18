@@ -19,14 +19,14 @@ export default function LoginPage() {
             asChild
             className="w-full bg-primary text-primary-foreground hover:bg-blue-light"
           >
-            <a href="/api/auth/login">Log in with Auth0</a>
+            <a href="/auth/login">Log in with Auth0</a>
           </Button>
           <Button
             variant="outline"
             asChild
             className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground bg-transparent"
           >
-            <a href="/api/auth/login?screen_hint=signup">
+            <a href="/auth/login?screen_hint=signup">
               Create an account
             </a>
           </Button>
